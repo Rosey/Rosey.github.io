@@ -12,7 +12,7 @@ class Template extends React.Component {
     const rootPath = '';// `${__PATH_PREFIX__}/`;
     const headerStyle = {
       border: 'none',
-      fontSize: '3rem'
+      fontSize: '2.7rem'
     };
     let header;
 

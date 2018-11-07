@@ -10,6 +10,20 @@ githubTheme.overrideThemeStyles = () => ({
   'a': {
     color: '#0042FF',
   },
+
+  'figcaption': {
+    color: '#666',
+    fontStyle: 'italic',
+    fontSize: '.9rem',
+    marginTop: '8px',
+    marginLeft: '2px',
+    marginRight: '2px'
+  },
+
+  'figure': {
+    border: '1px solid #eee',
+    padding: '5px'
+  }
 })
 
 const typography = new Typography(githubTheme)
