@@ -1,12 +1,12 @@
 import Typography from 'typography'
-import githubTheme from 'typography-theme-github'
+import sternGroveTheme from 'typography-theme-stern-grove';
 import CodePlugin from 'typography-plugin-code';
 
-githubTheme.plugins = [
+sternGroveTheme.plugins = [
   new CodePlugin()
 ];
 
-githubTheme.overrideThemeStyles = () => ({
+sternGroveTheme.overrideThemeStyles = () => ({
   'a': {
     color: '#0042FF',
   },
@@ -26,7 +26,7 @@ githubTheme.overrideThemeStyles = () => ({
   }
 })
 
-const typography = new Typography(githubTheme)
+const typography = new Typography(sternGroveTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
