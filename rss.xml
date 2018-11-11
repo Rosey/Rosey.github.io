@@ -1,4 +1,178 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rose Robertson]]></title><description><![CDATA[Rose Robertson]]></description><link>https://roserobertson.me/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 10 Nov 2018 23:46:34 GMT</lastBuildDate><item><title><![CDATA[Going back to work]]></title><description><![CDATA[I’m back at work in exactly two months. I will have been off for a year at that point, living a life of leisure (lol 😐) taking care of a…]]></description><link>https://roserobertson.me//going-back-to-work/</link><guid isPermaLink="false">https://roserobertson.me//going-back-to-work/</guid><pubDate>Mon, 05 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’m back at work in exactly two months. I will have been off for a year at that point, living a life of leisure (lol 😐) taking care of a baby.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rose Robertson]]></title><description><![CDATA[Rose Robertson]]></description><link>https://roserobertson.me/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 11 Nov 2018 18:45:01 GMT</lastBuildDate><item><title><![CDATA[Setting Up Visual Studio Code (as a primarily JS dev 💻)]]></title><description><![CDATA[To me, 2018 (the year I was/am off on maternity leave) was the year that  VS Code   really  blew up in popularity. So although I had…]]></description><link>https://roserobertson.me//setting-up-vscode/</link><guid isPermaLink="false">https://roserobertson.me//setting-up-vscode/</guid><pubDate>Sat, 10 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;To me, 2018 (the year I was/am off on maternity leave) was the year that &lt;a href=&quot;https://code.visualstudio.com&quot;&gt;VS Code&lt;/a&gt; &lt;em&gt;really&lt;/em&gt; blew up in popularity.&lt;/p&gt;
+&lt;p&gt;So although I had switched to &lt;a href=&quot;http://atom.io&quot;&gt;Atom&lt;/a&gt; from &lt;a href=&quot;https://www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt; a year or two earlier, I decided to switch AGAIN… because no one is nearly as obsessed with Atom like they are for VS Code and since now Microsoft owns both editors, I might as well switch to the preferred child.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;And&lt;/strong&gt; since I’m not working at the moment and have a bit of time during baby naps to nerd out, I got to spend a lot of time researching and getting my setup &lt;em&gt;just&lt;/em&gt; right.&lt;/p&gt;
+&lt;p&gt;I wasn’t totally sure about writing this blog post because it seems a bit frivolous and self-centered to write about my setup? Especially because there’s already a zillion similar posts out there already.&lt;/p&gt;
+&lt;p&gt;BUT I have decided to shut that inner voice of doubt down because:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;STFU mean self-talk&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;and&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;I really enjoy reading other people’s posts about their setups. I have read a LOT of them. So obviously there are people (like me) who DO enjoy reading this kind of thing!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;First up: The icon&lt;/h2&gt;
+&lt;p&gt;I’m not usually one to replace app icons, it just seems a bit… extreme? Like it feels more pure to stick with how the vendor intended it to be. But I really didn’t like the existing icon and decided to break my usual rule 😄 (actually, as you can see in the screenshot I went a bit crazy and also updated some of the Finder folders so I guess I am breaking all the rules these days.)&lt;/p&gt;
+&lt;p&gt;I ended up going with &lt;a href=&quot;https://dribbble.com/shots/3169976-Visual-Studio-Code-Icon-Revamp&quot;&gt;this icon by Lex Tang&lt;/a&gt;. It looks pretty good:&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0b8d394af65316e93a2858c8f4150989/4227f/vscode-icon.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 22.568807339449542%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZklEQVQY0xWPvU7bYABFvVTgn2B//iWOv9hOiZPYSYCQAGkTGBCoCWJBqipQlbJQVUK8QtXAwFCpj9CZpVNVqVufo3MfoQ9wMNPR1ZWO7lXUdIwR93Ha+4jWBLfzGjMt0IMQvRqhPdMPUf0qa3EHkWyhedWSOVaZDbmFnk4xmm+QwysU3fWp2A4vKharQiA8B7saogkXzRTowsHyQrwwxg5rGH5AxY1YWfXLTmJFMZZMMKMGVtpFUVUD+/ozX3/+4eLtO4pP3zhbPlLv7BD2B9S6I/LphNninPHBEW6QkC0yXj3s0loUNPvb7E0OSdpdtHKcYjo2ldtf/PgHy7sHeve/Ofj+l/zkPdHpJXL/mPp4j2jUQbYKXC9h80uT+/83HD0Oae8MmM3PSmGPFdNBMRwXkc8ZnH6kPxyR7s7Ijj/glVc8+ZL1rEsgG9TijKDewI9SaoOU5ryFnG4g2wX59gg/2UAVHk9dyJnPflWCnAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;vscode icon&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0b8d394af65316e93a2858c8f4150989/fb8a0/vscode-icon.png&quot;
+        srcset=&quot;/static/0b8d394af65316e93a2858c8f4150989/1a291/vscode-icon.png 148w,
+/static/0b8d394af65316e93a2858c8f4150989/2bc4a/vscode-icon.png 295w,
+/static/0b8d394af65316e93a2858c8f4150989/fb8a0/vscode-icon.png 590w,
+/static/0b8d394af65316e93a2858c8f4150989/526de/vscode-icon.png 885w,
+/static/0b8d394af65316e93a2858c8f4150989/4227f/vscode-icon.png 1090w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;OK what about theme?&lt;/h2&gt;
+&lt;p&gt;I’ve long been a fan of &lt;a href=&quot;https://github.com/chriskempson/tomorrow-theme&quot;&gt;Tomorrow Night Eighties&lt;/a&gt; in all my editors, but after many years, I thought it was probably time to try something new. &lt;a href=&quot;https://dev.to/aspittel/my-visual-studio-code-setup-1emn&quot;&gt;Ali Spittel&lt;/a&gt; mentioned &lt;a href=&quot;https://draculatheme.com&quot;&gt;Dracula&lt;/a&gt; and… Yep, love it.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b46024a1c8236156d54f84fa9771611e/df48b/dracula.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.0782122905028%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABXklEQVQoz02R/3aiMBCFfZuuAZSfCSQgUJGqaNFT63Z33/85vh1wu+0f93wzyT1zcieLUl9oihulubDJr7OcHue+Kd7xPYtaGpQyD4qW6otPk5b6vxaZ3pG7I64cqFsZ2lxITY+tThh7JM96ymRPEXWiHS7uSdctlZzlSUewdiy9HOUXj4Gx7dGHd8LmRNzJsP6NrLuSH+9kuytZf6M4/SbZXrDDB/rlhhGPPvzEtK+U1Z6qlgcJw3jDwpkdtbxoo/uZOm0Io4pUGIlhFViSpGa1smRZSxSWjz4oiMQ31bH45lruF7HuiKszketJ2oHQ7fGLFwJ3IPhHJR5fzlW2FX71Xt7j24d/LfwxRXb1QDvcaQ43XDvS2BFnz5TulaYcJfoHySCR93dSiZ4Ov8hOf6QWyV0u67HPI7Y9k+rn6VO2GCMLl136vsXzilnqU7JsL3Aoif6gm/kp9c0/9X8BIDvr541h8k8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;dracula&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b46024a1c8236156d54f84fa9771611e/fb8a0/dracula.png&quot;
+        srcset=&quot;/static/b46024a1c8236156d54f84fa9771611e/1a291/dracula.png 148w,
+/static/b46024a1c8236156d54f84fa9771611e/2bc4a/dracula.png 295w,
+/static/b46024a1c8236156d54f84fa9771611e/fb8a0/dracula.png 590w,
+/static/b46024a1c8236156d54f84fa9771611e/526de/dracula.png 885w,
+/static/b46024a1c8236156d54f84fa9771611e/df48b/dracula.png 1074w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;And extensions&lt;/h2&gt;
+&lt;p&gt;Since I’m not coding a TON right now I actually don’t know exactly what will prove to be most useful, but I installed the ones that seem like they make the most sense, and from the limited use I’ve had with them so far, they have been great.&lt;/p&gt;
+&lt;h3&gt;For writing copy, like I am right now&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=bierner.emojisense&quot;&gt;:emojisense:&lt;/a&gt; – Great for quickly inserting an emoji 😁 I am fine with using the mac keyboard shortcut (&lt;code&gt;⌘^space&lt;/code&gt;) a lot of the time, but since I do also have some muscle memory from Slack and Github I liked the idea of having the colon syntax available to me too. (plus, is it just me or is the mac shortcut kind of buggy sometimes?)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker&quot;&gt;Code Spell Checker&lt;/a&gt; – Sometimes I have typos. It’s nice having an editor that notifies you of typos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d153d2e8b8929c8b8864d723e1639fa6/70615/spell-check.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 13.182674199623353%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAoklEQVQI102OWQ6DMBBDuU+FulEgZCOsYRG06v3P4nry1Q8rM1b8PFndjDBuwaNoofQE6xfcHi7t1q/QJqJWI+5Pn+ai7FBxL8qAsuoh+cbM6a3UgMzYBcP4hnUM2whHiHg+7BjnD7rhgGqmFJLilr4PG16ECVxKJHfJFfKrRhbWkx83tN1BnWyKCP2/dxAmBQTryKt3TPHLiwMhhhBH2TSLfux1Z5OIl9uLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;spell check&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d153d2e8b8929c8b8864d723e1639fa6/fb8a0/spell-check.png&quot;
+        srcset=&quot;/static/d153d2e8b8929c8b8864d723e1639fa6/1a291/spell-check.png 148w,
+/static/d153d2e8b8929c8b8864d723e1639fa6/2bc4a/spell-check.png 295w,
+/static/d153d2e8b8929c8b8864d723e1639fa6/fb8a0/spell-check.png 590w,
+/static/d153d2e8b8929c8b8864d723e1639fa6/526de/spell-check.png 885w,
+/static/d153d2e8b8929c8b8864d723e1639fa6/70615/spell-check.png 1062w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;For writing code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&quot;&gt;ESLint&lt;/a&gt; – A no–brainer if you use ESLint in your code to have your editor auto–notify you of transgressions.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;GitLens&lt;/a&gt; – if you use Git for version control it’s nice to have history and diffs displayed right in the editor. Some people LOVE this feature, I’ve always been slightly take–it–or–leave–it about it but it seems better to have it than not, overall.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&quot;&gt;Path IntelliSense&lt;/a&gt; – autocompletes filenames for you, which is especially great if you are working with large JS projects that require you to &lt;code&gt;import&lt;/code&gt; from files.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=OfHumanBondage.react-proptypes-intellisense&quot;&gt;React PropTypes IntelliSense&lt;/a&gt; – Autocomplete props when passing props around in &lt;a href=&quot;https://reactjs.org&quot;&gt;React&lt;/a&gt;. Handy if you write React code, useless if you don’t 🙃&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss&quot;&gt;SASS IntelliSense&lt;/a&gt; – I think most devs don’t use &lt;a href=&quot;https://sass-lang.com&quot;&gt;SASS syntax&lt;/a&gt; anymore, correct me if I’m wrong? I rarely see it in the wild these days! But at &lt;a href=&quot;https://www.getflow.com&quot;&gt;Flow&lt;/a&gt; we still do and I don’t think we’ll be changing it any time soon, so it’s nice to have this.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss&quot;&gt;SCSS IntelliSense&lt;/a&gt; – for non-Flow projects I use SCSS most of the time, so need this too!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&quot;&gt;VS Live Share&lt;/a&gt; – I haven’t used this yet but I saw it recommended in another blog post (which one: I have forgotten 😢) and I liked the idea so  much I decided to add it in hopes I could one day use it for pair programming.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscodevim.vim&quot;&gt;VS Code Vim&lt;/a&gt; – I am not a hardcore vim user but I like having the shortcuts available to me sometimes. I turned off the setting to switch out of insertion mode on copy though as I found that irritating. As a non power-user of Vim I like being in insertion mode unless I explicitly &lt;code&gt;esc&lt;/code&gt; out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1414dfa385d29fcef59dc0431b314805/ffbc3/vim-copy.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 24.342105263157894%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA5klEQVQY01WQa3KDMAyEuUxDEp4JxgYTjMHgpuTZ9v5n2cqmZdIf32jl9Ug7CrZ7gSRrEKfS1yQ7kW4QJTU225LgCHf8V7/CV179oGISSll0/RX2/RPn+Rv2/AUzPfzQKJHYx7VfGJNelsl/rD55QV1KbMIcBR+guhl1Y6H0jGG8o1Uf0MOVuFH/gCGUvnha+uv8njzX92apgeQ0ORaopMU4PTHaJ6W9QNQjSmHAK4Oi1L5WckKan6jvvccoxJFpH8J5+VEhSNMKu0j46O7zoeiQHVq8hYwoPe42i2brvf7eF808Tv8AtRCjRxK1yPIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;vim copy&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1414dfa385d29fcef59dc0431b314805/fb8a0/vim-copy.png&quot;
+        srcset=&quot;/static/1414dfa385d29fcef59dc0431b314805/1a291/vim-copy.png 148w,
+/static/1414dfa385d29fcef59dc0431b314805/2bc4a/vim-copy.png 295w,
+/static/1414dfa385d29fcef59dc0431b314805/fb8a0/vim-copy.png 590w,
+/static/1414dfa385d29fcef59dc0431b314805/526de/vim-copy.png 885w,
+/static/1414dfa385d29fcef59dc0431b314805/ffbc3/vim-copy.png 912w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Going back to work]]></title><description><![CDATA[I’m back at work in exactly two months. I will have been off for a year at that point, living a life of leisure (lol 😐) taking care of a…]]></description><link>https://roserobertson.me//going-back-to-work/</link><guid isPermaLink="false">https://roserobertson.me//going-back-to-work/</guid><pubDate>Mon, 05 Nov 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I’m back at work in exactly two months. I will have been off for a year at that point, living a life of leisure (lol 😐) taking care of a baby.&lt;/p&gt;
 &lt;p&gt;My emotions are mixed!&lt;/p&gt;
 &lt;p&gt;✨ I’m excited, because I enjoy working (although let’s be honest, back when I left for maternity leave last year I was also very excited for a break from working 😇) and taking care of a baby is… well, it’s not so bad, but it’s pretty all-consuming so it will be nice to get away and do something else.&lt;/p&gt;
 &lt;p&gt;✨ I’m also excited because I really like my coworkers and spending time with them is kind of like spending time with friends. Is that sad? Is that weird? Please tell me that it is neither sad nor weird.&lt;/p&gt;
