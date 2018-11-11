@@ -8,6 +8,16 @@ module.exports = {
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-59476364-1",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
