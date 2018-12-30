@@ -55,3 +55,5 @@ Since I’m not coding a TON right now I actually don’t know exactly what will
 - [VS Code Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) – I am not a hardcore vim user but I like having the shortcuts available to me sometimes. I turned off the setting to switch out of insertion mode on copy though as I found that irritating. As a non power-user of Vim I like being in insertion mode unless I explicitly `esc` out.
 
 ![](./vim-copy.png)
+
+❤️
